@@ -94,7 +94,9 @@ https://data.worldbank.org/indicator/CM.MKT.LCAP.GD.ZS
 
 ## Timeline
 
-We will begin by downloading the datasets, cleaning and standardizing them, and merging them into a unified format by country and year. Then we will identify missing values, resolve inconsistencies between datasets, and prepare the final dataset for analysis. Then we will generalize visualizations, such as time-series plots, cross-country comparisons, and trend graphs, to illustrate the relationships among interest rates, GDP growth, inflation, and debt levels. After this step, we can identify trends within the dataset, analyze how variables such as interest rates and debt-to-GDP ratios relate to economic outcomes, and interpret the results. Lastly, we need to refine the research questions, review the results, discuss the limitations, and ensure the conclusions are supported.
+As stated in our team section, all aspects are collaborated to ensure full understanding throughout the project.
+
+We will begin by downloading the datasets, cleaning and standardizing them, and merging them into a unified format by country and year, finishing in the earlier parts of week 1 (~3/25). Then we will identify missing values, resolve inconsistencies between datasets, and prepare the final dataset for analysis (~3/30). Following completion of the final dataset, we will generalize visualizations, such as time-series plots, cross-country comparisons, and trend graphs, to illustrate the relationships among interest rates, GDP growth, inflation, and debt levels (~4/10). After this step, we can identify trends within the dataset, analyze how variables such as interest rates and debt-to-GDP ratios relate to economic outcomes, and interpret the results (~4/21). Lastly, we need to refine the research questions, review the results, discuss the limitations, and ensure the conclusions are supported (~5/1).
 
 ---
 
