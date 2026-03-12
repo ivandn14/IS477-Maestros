@@ -1,6 +1,6 @@
 # Project Plan
 
-## Overview
+## Overviews
 Within Keynesian economics, there is a general consensus that if a central bank decreases interest rates, this is inflationary and expands the economy, while if it increases interest rates, this is deflationary and contracts the economy. However, this relationship becomes less clear when a government incurs high levels of debt. When governments pay interest on a higher principal, more money enters the economy, potentially offsetting the contractionary effects of higher interest rates.
 
 Our research explores whether this economic principle holds true when a nation has higher debt levels.
