@@ -42,7 +42,8 @@ A technical issue also arose when generating the inflation distribution box plot
 ## Summary of Contributions
 
 ### Nicholas McClintock
-	In regards to our python code, I performed the initial data cleaning on the individual datasets. I purged useless columns and rows, and then flipped them. I then merged them into the one dataset. After merging, I merged two duplicate rows, and deleted some other data. I also worked conceptually, thinking of ways to better analyze the data, such as splitting our inspection into 5-year periods, along with collaborating to change our GDP data to GDP PPP.
+
+In regards to our python code, I performed the initial data cleaning on the individual datasets. I purged useless columns and rows, and then flipped them. I then merged them into the one dataset. After merging, I merged two duplicate rows, and deleted some other data. I also worked conceptually, thinking of ways to better analyze the data, such as splitting our inspection into 5-year periods, along with collaborating to change our GDP data to GDP PPP.
   
 ### Ivan Dong
 
