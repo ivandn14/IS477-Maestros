@@ -27,3 +27,11 @@ The project is on track for the final submission deadline, with minimal deviatio
 We need to proceed by investigating how these variables react to year-over-year interest rate changes. Another split that will help our analysis is categorizing countries as developed, developing, and undeveloped based on GDP per capita. This is beneficial because interest rate changes impact countries' economies differently. We will also split the timeframe of 1990–2024 into 5-year periods to observe more granular trends. We have some visualizations that are working, and we expect to have the full visualization suite completed by the week of April 21st.
 
 From there, the remaining work involves interpreting the trends we observe, refining our research questions based on what the data shows, and writing up the final report. While our current work has been done to answer our main research question, we will have to do supplementary work to answer our two other minor questions. We have allocated the weeks of April 21st through April 28th for analysis and interpretation, leaving the final week before the deadline for writing, review, and submission.
+
+---
+
+## Summary of Contributions
+
+### Ivan Dong
+
+My contributions for this milestone were focused on the analysis phase of the project. I incorporated the GDP PPP per capita dataset into the merged dataframe. Additionally, I provided some slight adjustments to the cleaning code, replacing the zero-filled missing values with NaN to prevent them from skewing calculations. Furthermore, I computed GDP growth rate as a derived variable and classified countries into four debt-to-GDP tiers. Finally, I produced four visualizations to compare interest rate levels to inflation and GDP across debt tiers, as well as a statistics table capturing key metrics for each tier.
