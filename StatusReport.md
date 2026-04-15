@@ -29,9 +29,21 @@ We need to proceed by investigating how these variables react to year-over-year 
 From there, the remaining work involves interpreting the trends we observe, refining our research questions based on what the data shows, and writing up the final report. While our current work has been done to answer our main research question, we will have to do supplementary work to answer our two other minor questions. We have allocated the weeks of April 21st through April 28th for analysis and interpretation, leaving the final week before the deadline for writing, review, and submission.
 
 ---
+## Project Changes: 
+Due to positive feedback, we did not diverge from the main aspects of the project, but certain details were added. Instead of analyzing Real GDP as initially intended, we switched to Real GDP PPP, as when we analyze countries in separate categories, such as developed, developing, and undeveloped, PPP more accurately shows the standard of living in a nation than regular GDP does. We also decided to exclude data before 1990, because data before then would not represent a modern economy as well as more recent data. Also, breaking countries into tiers based on GDP PPP per capita and splitting our data into 5-year periods are new improvements.
+
+## Challenges: 
+One of the more significant challenges we encountered was dealing with missing data. The World Bank datasets use zero as a placeholder for missing values rather than leaving cells empty. This meant that after merging, a large number of entries appeared to have data when they were actually empty, which would have skewed calculations such as averages and standard deviations. We resolved this by replacing all zero values with NaN after the merge, and then dropping any rows that were missing values for our three core variables — interest rate, debt-to-GDP, and inflation rate.
+
+A related issue was that the two debt-to-GDP datasets we sourced were formatted differently from one another and from the rest of the World Bank datasets. The second dataset had a different column structure and used "no data" as a placeholder rather than leaving cells empty. We resolved this by manually reformatting the second dataset to match the structure of the others, replacing "no data" strings with zeros before converting to NaN, and then merging the two debt-to-GDP sources by averaging their values where both were available.
+
+A technical issue also arose when generating the inflation distribution box plot, where the pandas boxplot() function did not support the order parameter needed to display the debt tiers in the correct sequence. This was resolved by switching to the seaborn boxplot() function, which supports tier ordering natively. In regards to our python code, I performed the initial data cleaning on the individual datasets. I purged useless columns and rows, and then flipped them. I then merged them into the one dataset. After merging, I merged two duplicate rows, and deleted some other data. I also worked conceptually, thinking of ways to better analyze the data, such as splitting our inspection into 5-year periods, along with collaborating to change our GDP data to GDP PPP.
 
 ## Summary of Contributions
 
+### Nicholas McClintock
+	In regards to our python code, I performed the initial data cleaning on the individual datasets. I purged useless columns and rows, and then flipped them. I then merged them into the one dataset. After merging, I merged two duplicate rows, and deleted some other data. I also worked conceptually, thinking of ways to better analyze the data, such as splitting our inspection into 5-year periods, along with collaborating to change our GDP data to GDP PPP.
+  
 ### Ivan Dong
 
 My contributions for this milestone were focused on the analysis phase of the project. I incorporated the GDP PPP per capita dataset into the merged dataframe. Additionally, I provided some slight adjustments to the cleaning code, replacing the zero-filled missing values with NaN to prevent them from skewing calculations. Furthermore, I computed GDP growth rate as a derived variable and classified countries into four debt-to-GDP tiers. Finally, I produced four visualizations to compare interest rate levels to inflation and GDP across debt tiers, as well as a statistics table capturing key metrics for each tier.
